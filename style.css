@@ -14,17 +14,18 @@
 }
 .wrapper div{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
   border-radius: 20px;
   align-items: center;
-  background: #a9a6a6;
+  background: #9fe2eb;
   width: 250px;
   padding: 20px;
 }
 .wrapper .cardImage{
-  width: 240px;
+  width: 200px;
 }
-.wrapper div h2{
-  text-transform: uppercase;
+.wrapper div h3 {
+  text-transform: lowercase;
+  font-weight: 300;
 }
